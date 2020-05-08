@@ -1,0 +1,78 @@
+<?php
+
+return [
+    'admin' => [
+        'name' => 'Sun',
+        'url' => 'sun.apc.edu.ph',
+        'dev_url' => 'sun-dev.apc.edu.ph',
+    ],
+    'admission' => [
+        'name' => 'Alphard',
+        'url' => 'alphard.apc.edu.ph',
+        'dev_url' => 'alphard-dev.apc.edu.ph',
+    ],
+    'human_resource' => [
+        'name' => 'Betelgeuse',
+        'url' => 'betelgeuse.apc.edu.ph',
+        'dev_url' => 'betelgeuse-dev.apc.edu.ph'
+    ],
+    'accounting' => [
+        'name' => 'Bellatrix',
+        'url' => 'bellatrix.apc.edu.ph',
+        'dev_url' => 'bellatrix-dev.apc.edu.ph'
+    ],
+    'library' => [
+        'name' => 'Pollux',
+        'url' => 'pollux.apc.edu.ph',
+        'dev_url' => 'pollux-dev.apc.edu.ph',
+    ],
+    'payroll' => [
+        'name' => 'Castor',
+        'url' => 'castor.apc.edu.ph',
+        'dev_url' => 'castor-dev.apc.edu.ph',
+    ],
+    'student_records' => [
+        'name' => 'Vega',
+        'url' => 'vega.apc.edu.ph',
+        'dev_url' => 'vega-dev.apc.edu.ph',
+    ],
+    'student_services' => [
+        'name' => 'Altair',
+        'url' => 'altair.apc.edu.ph',
+        'dev_url' => 'altair-dev.apc.edu.ph',
+    ],
+    'external_relations' => [
+        'name' => 'Rigel',
+        'url' => 'rigel.apc.edu.ph',
+        'dev_url' => 'rigel-dev.apc.edu.ph',
+    ],
+    'teacher_services' => [
+        'name' => 'Sirius',
+        'url' => 'sirius-dev.apc.edu.ph'
+    ],
+    'logistics' => [
+        'name' => 'Capella',
+        'url' => 'capella.apc.edu.ph',
+        'dev_url' => 'capella-dev.apc.edu.ph',
+    ],
+    'building_admin' => [
+        'name' => 'Mizar',
+        'url' => 'mizar.apc.edu.ph',
+        'dev_url' => 'mizar-dev.apc.edu.ph',
+    ],
+    'service_desk' => [
+        'name' => 'Algol',
+        'url' => 'algol.apc.edu.ph',
+        'dev_url' => 'algol-dev.apc.edu.ph',
+    ],
+    'events' => [
+        'name' => 'Antares',
+        'url' => 'antares.apc.edu.ph',
+        'dev_url' => 'antares-dev.apc.edu.ph',
+    ],
+    'general' => [
+        'name' => 'Canopus',
+        'url' => 'canopus.apc.edu.ph',
+        'dev_url' => 'canopus-dev.apc.edu.ph',
+    ]
+];

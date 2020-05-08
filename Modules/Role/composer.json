@@ -1,0 +1,25 @@
+{
+    "name": "bravo4all/role",
+    "description": "",
+    "authors": [
+        {
+            "name": "Asia Pacific College",
+            "email": "delossantosheremias@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Role\\Providers\\RoleServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Role\\": ""
+        }
+    }
+}

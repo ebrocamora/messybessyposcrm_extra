@@ -1,0 +1,54 @@
+<?php
+
+namespace Modules\$MODULE$\Actions;
+
+use Lorisleiva\Actions\Action;
+use Modules\$MODULE$\Entities\$MODULE$;
+use Modules\System\Entities\DatatableBuilder;
+
+class $ACTIONCLASS$ extends Action
+{
+    /**
+     * Determine if the user is authorized to make this action.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return $this->user()->can('view-$MODEL_LOWER_CASE$');
+    }
+
+    /**
+     * Get the validation rules that apply to the action.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        return [];
+    }
+
+    /**
+     * Execute the action and return a result.
+     *
+     * @param DatatableBuilder $builder
+     * @return mixed
+     * @throws \Exception
+     */
+    public function handle(DatatableBuilder $builder)
+    {
+        if (request()->ajax()) {
+            return datatables()->of($MODEL$::query())
+                ->editColumn('action', function ($$MODEL_LOWER_CASE$) {
+                    return view('$MODEL_LOWER_CASE$::components.actions', compact(['$MODEL_LOWER_CASE$']));
+                })
+                ->toJson();
+        }
+
+        $builder->addColumn(['data'=>'id']);
+        $builder->addActionColumn();
+        $builder->setTableId('$MODEL_LOWER_CASE$s');
+
+        return view('$MODEL_LOWER_CASE$::index', compact('builder'));
+    }
+}

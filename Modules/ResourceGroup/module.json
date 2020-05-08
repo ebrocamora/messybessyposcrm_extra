@@ -1,0 +1,13 @@
+{
+    "name": "ResourceGroup",
+    "alias": "resourcegroup",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\ResourceGroup\\Providers\\ResourceGroupServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

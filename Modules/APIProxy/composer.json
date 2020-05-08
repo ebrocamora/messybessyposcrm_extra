@@ -1,0 +1,25 @@
+{
+    "name": "bravo4all/apiproxy",
+    "description": "",
+    "authors": [
+        {
+            "name": "Asia Pacific College",
+            "email": "delossantosheremias@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\APIProxy\\Providers\\APIProxyServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\APIProxy\\": ""
+        }
+    }
+}

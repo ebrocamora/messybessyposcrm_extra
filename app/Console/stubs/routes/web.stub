@@ -1,0 +1,24 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+use Modules\$STUDLY_NAME$\Actions\ShowCreate$STUDLY_NAME$Form;
+use Modules\$STUDLY_NAME$\Actions\ShowEdit$STUDLY_NAME$Form;
+use Modules\$STUDLY_NAME$\Actions\View$STUDLY_NAME$;
+use Modules\$STUDLY_NAME$\Actions\DataTableOf$STUDLY_NAME$;
+
+Route::prefix('$LOWER_NAME$')->middleware('auth')->group(function() {
+    Route::get('/', DataTableOf$STUDLY_NAME$::class)->name('$LOWER_NAME$.index');
+    Route::get('/create', ShowCreate$STUDLY_NAME$Form::class)->name('$LOWER_NAME$.create');
+    Route::get('/{$LOWER_NAME$}', View$STUDLY_NAME$::class)->name('$LOWER_NAME$.show');
+    Route::get('/{$LOWER_NAME$}/edit', ShowEdit$STUDLY_NAME$Form::class)->name('$LOWER_NAME$.edit');
+});

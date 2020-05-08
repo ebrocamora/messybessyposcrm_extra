@@ -1,0 +1,25 @@
+{
+    "name": "bravo4all/generator",
+    "description": "",
+    "authors": [
+        {
+            "name": "Asia Pacific College",
+            "email": "delossantosheremias@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Generator\\Providers\\GeneratorServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Generator\\": ""
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "APIProxy",
+    "alias": "apiproxy",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\APIProxy\\Providers\\APIProxyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

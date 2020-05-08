@@ -1,0 +1,25 @@
+{
+    "name": "bravo4all/resourcegroup",
+    "description": "",
+    "authors": [
+        {
+            "name": "Asia Pacific College",
+            "email": "delossantosheremias@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ResourceGroup\\Providers\\ResourceGroupServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ResourceGroup\\": ""
+        }
+    }
+}

@@ -1,0 +1,18 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+@import "~admin-lte/dist/css/adminlte.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~icheck-bootstrap/icheck-bootstrap.min.css";
+@import "~element-ui/lib/theme-chalk/index.css";
+@import "~bootstrap-vue/dist/bootstrap-vue.min.css";
+@import "~overlayscrollbars/css/OverlayScrollbars.min.css";
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.min.css";
+@import "~datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css";
+
+body{
+  font-family: $font-family-sans-serif;
+}

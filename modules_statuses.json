@@ -1,0 +1,14 @@
+{
+    "User": true,
+    "Link": true,
+    "ServiceGroup": true,
+    "Application": true,
+    "System": true,
+    "Student": true,
+    "Role": true,
+    "Permission": true,
+    "ResourceGroup": true,
+    "Generator": true,
+    "APIProxy": true,
+    "AuditLog": true
+}
